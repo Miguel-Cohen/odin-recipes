@@ -1,0 +1,42 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 20px 100px;
+    border-radius: 10px;
+    border-style: solid;
+}
+* {
+    font-family: sans-serif;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: auto auto;
+    padding: 0px;
+    margin: 0px 0px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+li {
+    margin: 10px 150px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#mainbg {
+    margin-top: 50%;
+    margin-bottom: 50%;
+}       
