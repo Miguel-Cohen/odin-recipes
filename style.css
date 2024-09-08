@@ -5,9 +5,11 @@ body {
 h1 {
     text-align: center;
     padding: 10px;
-    margin: 20px 100px;
+    margin: 20px auto;
+    width: 50%;
     border-radius: 10px;
     border-style: solid;
+    display: block;
 }
 * {
     font-family: sans-serif;
@@ -19,24 +21,62 @@ a {
     color: rgb(214, 214, 214);
 }
 
-ul {
+ul, ol{
     list-style-type: none;
     text-align: center;
     margin: auto auto;
     padding: 0px;
     margin: 0px 0px;
-    border-style: solid;
-    border-radius: 10px;
+}
+
+ol {
+    list-style: inside;
+    list-style-type: decimal;
 }
 
 li {
     margin: 10px 150px;
     padding: 5px;
-    border: 1px solid black;
-    border-radius: 15px;
+}
+
+
+.recipePage p {
+    padding: 0px 10px;
+}
+
+.recipePage img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 700px;
+    margin: 0px auto;
 }
 
 #mainbg {
     margin-top: 50%;
     margin-bottom: 50%;
-}       
+}
+
+body>ul,
+body>ol {
+    padding: 0px 10px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.recipePage li{
+    border: none;
+    margin: 0px;
+    /* border: 1px solid white; */
+    text-align: left;
+}
+
+.recipePage li ul {
+    /* border: 1px solid green; */
+    padding-left: 2%;
+}
+
+ul>li>ul>li{
+    list-style-type: disc;
+}
